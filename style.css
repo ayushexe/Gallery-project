@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+}
+p{
+    text-align: center;
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+
+.gallery-images{
+    display: block;
+    justify-content: space-evenly;
+
+    padding: 70px;
+    margin-left: 40px;
+}
+img{
+    width: 250px;
+    border-radius: 5px;
+}
+img:hover{
+    transform: scale(2,2);
+}
